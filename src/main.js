@@ -2,9 +2,9 @@ require('dotenv').config();
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-/* const {
+const {
     ErelaClient
-} = require('erela.js'); */
+} = require('erela.js');
 
 const mongoose = require('mongoose');
 
@@ -23,12 +23,12 @@ const {
 
     await client.login(process.env.BOT_TOKEN);
 
-    /* client.music = new ErelaClient(client, [{
+    client.music = new ErelaClient(client, [{
         host: process.env.HOST,
         port: process.env.PORT,
         password: process.env.PASSWORD
     }]);
-    await registerMusicEvents(client.music, '../musicEvents'); */
+    await registerMusicEvents(client.music, '../musicEvents');
 
     client.mongoose = require('../database/db');
     client.mongoose.init();
