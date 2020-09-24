@@ -2,9 +2,9 @@ require('dotenv').config();
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const {
+/* const {
     ErelaClient
-} = require('erela.js');
+} = require('erela.js'); */
 
 const mongoose = require('mongoose');
 
