@@ -1,0 +1,11 @@
+const BaseEvent = require('../utils/structures/BaseEvent');
+
+module.exports = class TemplateEvent extends BaseEvent {
+    constructor() {
+        super('template');
+    }
+
+    async run(options) {
+
+    }
+}

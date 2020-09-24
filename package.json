@@ -1,0 +1,39 @@
+{
+  "name": "deathskull-bot",
+  "version": "1.0.0",
+  "description": "A private bot of the official DeathSkull Discord Server",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/main.js",
+    "lavalink": "java -jar Lavalink.jar",
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrawalPaavan/DeathSkull-Bot.git"
+  },
+  "author": "Paavan Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agrawalPaavan/DeathSkull-Bot/issues"
+  },
+  "homepage": "https://github.com/agrawalPaavan/DeathSkull-Bot#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.2.0",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "erela.js": "^1.1.8",
+    "genius-lyrics": "^3.0.0",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.26",
+    "ms": "^2.1.2",
+    "node-fetch": "^2.6.0",
+    "os": "^0.1.1",
+    "puppeteer": "^5.2.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}

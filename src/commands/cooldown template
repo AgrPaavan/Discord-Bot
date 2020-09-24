@@ -1,0 +1,18 @@
+require("../../src/global");
+
+module.exports.run = async (client, message, args) => {
+    if (usedCommand.has(message.author.id)) {
+        return;
+    } else {
+
+        usedCommand.add(message.author.id);
+        setTimeout(() => {
+            usedCommand.delete(message.author.id);
+        }, 3000);
+    }
+}
+
+module.exports.config = {
+    name: "cooldown",
+    aliases: []
+}

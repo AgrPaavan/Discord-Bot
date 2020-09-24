@@ -1,0 +1,92 @@
+2020-08-12 12:20:03.551  INFO 5840 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.3.1.1
+	Build:          1075
+	Build time:     13.07.2020 09:09:23 UTC
+	Branch          master
+	Commit:         f6a1a2a
+	Commit time:    13.07.2020 09:04:37 UTC
+	JVM:            13
+	Lavaplayer      1.3.50
+
+2020-08-12 12:20:03.936  INFO 5840 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-EUF63RJ with PID 5840 (D:\Computer Science\Discord Bot\DeathSkull-Dev-Bot\Lavalink.jar started by paavan in D:\Computer Science\Discord Bot\DeathSkull-Dev-Bot)
+2020-08-12 12:20:03.939  INFO 5840 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2020-08-12 12:20:04.265  WARN 5840 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-08-12 12:20:09.329  WARN 5840 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-08-12 12:20:09.384  INFO 5840 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-08-12 12:20:09.385  INFO 5840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5308 ms
+2020-08-12 12:20:10.042  WARN 5840 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2020-08-12 12:20:10.055  INFO 5840 --- [main] l.s.c.AudioSendFactoryConfiguration      : OS: Windows 10, Arch: amd64
+2020-08-12 12:20:10.057  INFO 5840 --- [main] l.s.c.AudioSendFactoryConfiguration      : JDA-NAS supported system detected. Enabled native audio sending.
+2020-08-12 12:20:10.057  INFO 5840 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting buffer to 400ms
+2020-08-12 12:20:10.058  INFO 5840 --- [main] l.s.c.AudioSendFactoryConfiguration      : Setting playlist load limit to 6
+2020-08-12 12:20:10.857  INFO 5840 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2020-08-12 12:20:12.394  INFO 5840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 12:20:13.487  INFO 5840 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-08-12 12:20:13.520  INFO 5840 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-08-12 12:20:14.113  INFO 5840 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 7000 (http) with context path ''
+2020-08-12 12:20:14.124  INFO 5840 --- [main] lavalink.server.Launcher                 : Started Launcher in 12.063 seconds (JVM running for 13.765)
+2020-08-12 12:20:40.283  INFO 5840 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 12:20:40.283  INFO 5840 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 12:20:40.297  INFO 5840 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-08-12 12:20:40.333  INFO 5840 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:54386
+2020-08-12 12:20:40.532  INFO 5840 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:54386
+2020-08-12 12:34:21.283  INFO 5840 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:34:21.847  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"e3cfc9d54769865598a30cddb75fd389","op":"voiceUpdate","guildId":"741145994468524093","event":{"token":"a810345370a6b493","guild_id":"741145994468524093","endpoint":"india715.discord.media:80"}}
+2020-08-12 12:34:21.980  INFO 5840 --- [parallel-2] com.jcabi.manifests.Manifests            : 73 attributes loaded from 84 stream(s) in 91ms, 73 saved, 1240 ignored: ["Ant-Version", "Archiver-Version", "Automatic-Module-Name", "Bnd-LastModified", "Build-Jdk", "Build-Jdk-Spec", "Build-Time", "Built-By", "Bundle-ActivationPolicy", "Bundle-Activator", "Bundle-Category", "Bundle-Description", "Bundle-DocURL", "Bundle-License", "Bundle-ManifestVersion", "Bundle-Name", "Bundle-NativeCode", "Bundle-RequiredExecutionEnvironment", "Bundle-SymbolicName", "Bundle-Vendor", "Bundle-Version", "Copyright", "Created-By", "Export-Package", "Extension-Name", "Git-Revision", "Implementation-Build", "Implementation-Build-Date", "Implementation-Title", "Implementation-URL", "Implementation-Vendor", "Implementation-Vendor-Id", "Implementation-Version", "Import-Package", "Include-Resource", "JCabi-Build", "JCabi-Date", "JCabi-Version", "Jar-Name", "Jar-Version", "Java-Vendor", "Java-Version", "Kotlin-Runtime-Component", "Kotlin-Version", "Log4jReleaseKey", "Log4jReleaseManager", "Log4jReleaseVersion", "Magma-Version", "Main-Class", "Manifest-Version", "Multi-Release", "Originally-Created-By", "Os-Arch", "Os-Name", "Os-Version", "Private-Package", "Provide-Capability", "Require-Bundle", "Require-Capability", "Scm-Connection", "Scm-Revision", "Scm-Url", "Specification-Title", "Specification-Vendor", "Specification-Version", "Spring-Boot-Classes", "Spring-Boot-Lib", "Spring-Boot-Version", "Start-Class", "Tool", "X-Compile-Source-JDK", "X-Compile-Target-JDK", "url"]
+2020-08-12 12:34:22.687  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: the nights
+2020-08-12 12:34:25.348  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"741145994468524093","track":"QAAAcwIAE0F2aWNpaSAtIFRoZSBOaWdodHMABkF2aWNpaQAAAAAAAuoYAAtVdEY2SmVqOHliNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVV0RjZKZWo4eWI0AAd5b3V0dWJlAAAAAAAAAAA=","volume":100}
+2020-08-12 12:34:34.609  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"741145994468524093","volume":25}
+2020-08-12 12:34:34.616  INFO 5840 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$648/0x0000000801242440@6fbf95b9
+2020-08-12 12:34:34.632  INFO 5840 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2020-08-12 12:34:34.632  INFO 5840 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2020-08-12 12:34:34.684  INFO 5840 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2020-08-12 12:35:34.631  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"741145994468524093","volume":1}
+2020-08-12 12:36:04.321  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"741145994468524093","volume":5}
+2020-08-12 12:36:26.967  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"741145994468524093","volume":10}
+2020-08-12 12:36:34.365  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"741145994468524093"}
+2020-08-12 12:36:46.952  INFO 5840 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:36:47.493  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:36:47.552  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"e3cfc9d54769865598a30cddb75fd389","op":"voiceUpdate","guildId":"741145994468524093","event":{"token":"e9ab7765e55bd62b","guild_id":"741145994468524093","endpoint":"india715.discord.media:80"}}
+2020-08-12 12:36:53.149  INFO 5840 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:36:53.880  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: the weeknd
+2020-08-12 12:37:01.794  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"play","guildId":"741145994468524093","track":"QAAAlAIAMEp1aWNlIFdSTEQgJiBUaGUgV2Vla25kIC0gU21pbGUgKE9mZmljaWFsIFZpZGVvKQAKSnVpY2UgV1JMRAAAAAAAA1d4AAsyYXZQSjlUWk5tVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTJhdlBKOVRaTm1VAAd5b3V0dWJlAAAAAAAAAAA=","volume":100}
+2020-08-12 12:37:06.678  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"741145994468524093","volume":1}
+2020-08-12 12:37:17.323  INFO 5840 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:37:18.020  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: avicii
+2020-08-12 12:37:52.245  INFO 5840 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:37:52.672  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:37:53.199  INFO 5840 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:37:53.950  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: avicii
+2020-08-12 12:38:07.661  INFO 5840 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:38:08.124  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:38:23.385  INFO 5840 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:38:23.842  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:39:18.100  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"741145994468524093"}
+2020-08-12 12:41:38.504  INFO 5840 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:41:39.098  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"sessionId":"e3cfc9d54769865598a30cddb75fd389","op":"voiceUpdate","guildId":"741145994468524093","event":{"token":"b8b509815a584970","guild_id":"741145994468524093","endpoint":"india715.discord.media:80"}}
+2020-08-12 12:41:40.044  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:41:40.856  INFO 5840 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:41:41.280  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:42:18.983  INFO 5840 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:42:19.387  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:42:59.288  INFO 5840 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:42:59.735  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:43:22.159  INFO 5840 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:43:22.638  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:44:22.604  INFO 5840 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:44:22.990  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:45:08.260  INFO 5840 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : GET /loadtracks
+2020-08-12 12:45:08.650  INFO 5840 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2020-08-12 12:48:37.320  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:54386 -- CloseStatus[code=1006, reason=]
+2020-08-12 12:48:37.320  INFO 5840 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2020-08-12 12:48:40.954  INFO 5840 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 12:48:40.955  INFO 5840 --- [Thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2020-08-12 12:48:40.959  INFO 5840 --- [Thread-1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
