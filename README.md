@@ -2,7 +2,7 @@
 
 ***
 
-This is a bot I made using discod.js v12 which is now outdated and I have not yet gotten some time to update it, although I just might in the future with all the new cool features of v13.
+This is a bot I made using discod.js v12 which is now outdated and I have not yet gotten around to updating it, although I just might in the future with all the new cool features of v13.
 
 ## Features
 * The bot has a mongo db database attached to allow it to have a server specific prefixes.
